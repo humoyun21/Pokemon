@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+body {
+  background-color: #ffd845;
+}
+.logo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+.logo i {
+  position: relative;
+  left: 360px;
+  margin-top: -200px;
+}
+.mainwrap {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.gross {
+  display: flex;
+  width: 260px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  gap: 5px;
+}
+.gross p {
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.search {
+  display: flex;
+  width: 300px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  background: #fff;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.search p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+button {
+  width: 200px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  background: #fff;
+}
+button p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.cardwrapper {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 30px;
+}
+.card {
+  width: 307px;
+  height: 423px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #fff;
+}
+.cardimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 68px;
+  border-bottom: 2px solid black;
+}
+.cardtext {
+  display: flex;
+  margin-left: 30px;
+  gap: 102px;
+  align-items: center;
+  margin-top: 20px;
+}
+.cardtext h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card p {
+  color: #000;
+  margin-top: 5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 30px;
+}
+.carddata {
+  display: flex;
+  gap: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.cardwrapper1 {
+  margin-bottom: 334px;
+  display: flex;
+  gap: 30px;
+}
